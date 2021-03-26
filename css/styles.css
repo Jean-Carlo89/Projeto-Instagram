@@ -10,6 +10,15 @@ body{
     
 }
 
+input{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .apareceu-mobile{
     display: none;
 }
@@ -215,7 +224,7 @@ ion-icon{
 .name{
     display: flex;
     justify-content:space-between;
-    width: 105px;
+    /*width: 105px;*/
     height: 34px;
     /*border: 1px solid white;*/
     align-items: center;
@@ -248,7 +257,7 @@ ion-icon{
 }
 .inferior-post{
     height:76px;
-    background: salmon;
+    background: white;
     width: 612px;
     display: flex;
     flex-direction: column;
@@ -281,6 +290,10 @@ ion-icon{
     width: 20px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.negrito{
+    font-weight: bold;
 }
 
 
@@ -359,7 +372,7 @@ ion-icon{
 
     .apareceu-mobile{
         display: flex;
-        width: 600px;
+        
         justify-content: space-between;
         
         
@@ -405,6 +418,36 @@ ion-icon{
     #arrow-stories{
         display: none;
     }
+
+    .inferior-fixed{
+        
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 54px;
+        background: white;
+        
+    }
+
+    .barra-inferior{
+        height: 54px;
+        width: 95%;
+        display: flex;
+        
+        margin :0 auto;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    #apareceu-mobile{
+        
+        width: 90%;
+    }
+
+    
 
     
 }
